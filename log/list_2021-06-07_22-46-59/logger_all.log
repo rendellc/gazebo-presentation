@@ -1,0 +1,376 @@
+[0.158s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/cale/gazebo-presentation']
+[0.159s] DEBUG:colcon:Parsed command line arguments: Namespace(base_paths=['/home/cale/gazebo-presentation'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fcdc334bb20>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fcdc334bb20>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fcdc3109f40>)
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.267s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cale/gazebo-presentation'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation) by extension 'ros'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation) by extensions ['cmake', 'python']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation) by extension 'cmake'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation) by extension 'python'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation) by extensions ['python_setup_py']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation) by extension 'python_setup_py'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css) by extension 'python'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css) by extensions ['python_setup_py']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css) by extension 'python_setup_py'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/print) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/print) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/print) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/print) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/print) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/print) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/print) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/print) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/print) by extension 'ros'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/print) by extensions ['cmake', 'python']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/print) by extension 'cmake'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/print) by extension 'python'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/print) by extensions ['python_setup_py']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/print) by extension 'python_setup_py'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme) by extension 'ros'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme) by extensions ['cmake', 'python']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/source) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/source) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/source) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/source) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/source) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/source) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/source) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/source) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/source) by extension 'ros'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/source) by extensions ['cmake', 'python']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/source) by extension 'cmake'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/source) by extension 'python'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/source) by extensions ['python_setup_py']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/source) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/template) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/template) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/template) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/template) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/template) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/template) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/template) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/template) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/template) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/template) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/template) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/template) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/template) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/css/theme/template) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts) by extensions ['cmake', 'python']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/league-gothic) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/league-gothic) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/league-gothic) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/league-gothic) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/league-gothic) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/league-gothic) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/league-gothic) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/league-gothic) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/league-gothic) by extension 'ros'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/league-gothic) by extensions ['cmake', 'python']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/league-gothic) by extension 'cmake'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/league-gothic) by extension 'python'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/league-gothic) by extensions ['python_setup_py']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/league-gothic) by extension 'python_setup_py'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/source-sans-pro) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/source-sans-pro) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/source-sans-pro) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/source-sans-pro) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/source-sans-pro) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/source-sans-pro) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/source-sans-pro) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/source-sans-pro) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/source-sans-pro) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/source-sans-pro) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/source-sans-pro) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/source-sans-pro) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/source-sans-pro) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/dist/theme/fonts/source-sans-pro) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples) by extension 'ros'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples) by extensions ['cmake', 'python']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples) by extension 'cmake'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples) by extension 'python'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples) by extensions ['python_setup_py']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples) by extension 'python_setup_py'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples/assets) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples/assets) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples/assets) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples/assets) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples/assets) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples/assets) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples/assets) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples/assets) by extension 'ros'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples/assets) by extensions ['cmake', 'python']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples/assets) by extension 'cmake'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples/assets) by extension 'python'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples/assets) by extensions ['python_setup_py']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/examples/assets) by extension 'python_setup_py'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js) by extension 'ros'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/components) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/components) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/components) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/components) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/components) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/components) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/components) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/components) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/components) by extension 'ros'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/components) by extensions ['cmake', 'python']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/components) by extension 'cmake'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/components) by extension 'python'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/components) by extensions ['python_setup_py']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/components) by extension 'python_setup_py'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/controllers) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/controllers) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/controllers) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/controllers) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/controllers) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/controllers) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/controllers) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/controllers) by extension 'ros'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/controllers) by extensions ['cmake', 'python']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/controllers) by extension 'cmake'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/controllers) by extension 'python'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/controllers) by extensions ['python_setup_py']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/controllers) by extension 'python_setup_py'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/utils) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/utils) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/utils) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/utils) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/utils) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/utils) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/utils) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/utils) by extension 'ros'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/utils) by extensions ['cmake', 'python']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/utils) by extension 'cmake'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/utils) by extension 'python'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/utils) by extensions ['python_setup_py']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/js/utils) by extension 'python_setup_py'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/log) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/log) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/log) ignored
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin) by extension 'ros'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin) by extensions ['cmake', 'python']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin) by extension 'cmake'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin) by extension 'python'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin) by extensions ['python_setup_py']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin) by extension 'python_setup_py'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/highlight) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/highlight) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/highlight) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/highlight) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/highlight) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/highlight) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/highlight) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/highlight) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/highlight) by extension 'ros'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/highlight) by extensions ['cmake', 'python']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/highlight) by extension 'cmake'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/highlight) by extension 'python'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/highlight) by extensions ['python_setup_py']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/highlight) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/markdown) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/markdown) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/markdown) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/markdown) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/markdown) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/markdown) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/markdown) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/markdown) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/markdown) by extension 'ros'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/markdown) by extensions ['cmake', 'python']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/markdown) by extension 'cmake'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/markdown) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/markdown) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/markdown) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/math) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/math) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/math) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/math) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/math) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/math) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/math) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/math) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/math) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/math) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/math) by extension 'cmake'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/math) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/math) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/math) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/notes) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/notes) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/notes) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/notes) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/notes) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/notes) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/notes) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/notes) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/notes) by extension 'ros'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/notes) by extensions ['cmake', 'python']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/notes) by extension 'cmake'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/notes) by extension 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/notes) by extensions ['python_setup_py']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/notes) by extension 'python_setup_py'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/search) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/search) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/search) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/search) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/search) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/search) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/search) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/search) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/search) by extension 'ros'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/search) by extensions ['cmake', 'python']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/search) by extension 'cmake'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/search) by extension 'python'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/search) by extensions ['python_setup_py']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/search) by extension 'python_setup_py'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/zoom) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/zoom) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/zoom) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/zoom) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/zoom) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/zoom) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/zoom) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/zoom) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/zoom) by extension 'ros'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/zoom) by extensions ['cmake', 'python']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/zoom) by extension 'cmake'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/zoom) by extension 'python'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/zoom) by extensions ['python_setup_py']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/plugin/zoom) by extension 'python_setup_py'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test) by extension 'ros'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test) by extensions ['cmake', 'python']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test) by extension 'cmake'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test) by extension 'python'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test) by extensions ['python_setup_py']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test) by extension 'python_setup_py'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test/assets) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test/assets) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test/assets) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test/assets) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test/assets) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test/assets) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test/assets) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test/assets) by extension 'ros'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test/assets) by extensions ['cmake', 'python']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test/assets) by extension 'cmake'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test/assets) by extension 'python'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test/assets) by extensions ['python_setup_py']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cale/gazebo-presentation/test/assets) by extension 'python_setup_py'
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

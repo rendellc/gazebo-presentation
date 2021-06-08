@@ -1,40 +1,144 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+	<title>Gazebo</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/gazebo.css">
+	<!-- <link rel="stylesheet" href="dist/theme/moon.css"> -->
+	<!-- <link rel="stylesheet" href="dist/theme/black.css"> -->
+	<!-- <link rel="stylesheet" href="dist/theme/white.css"> -->
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div id="corner-img">
+			<img
+				src="http://gazebosim.org/assets/logos/gazebo_icon_pos-76b768ca51b0c24a5e5ddeb5a844baf3a3efc83e42affae355ed6ce9326707e4.svg"
+				width="5%" alt="Gazebo logo">
 		</div>
+		<div class="slides">
+			<section>
+				<h5>Gazebo presentation</h5>
+			</section>
+			<section>
+				<h5>About Gazebo</h5>
+				<ul>
+					<li>Open source physics simulator for robotics</li>
+					<li>Made by Open Source Robotics Foundation (OSRF)</li>
+				</ul>
+			</section>
+			<section>
+				<section>
+					<h5>Showcase</h5>
+				</section>
+				<section>
+					<h5>Drone development in Ascend NTNU</h5>
+					<div style="float: right; width: 60%;">
+						<img data-src="media/control_simulator_5.png" alt="control_simulator_5.png" />
+					</div>
+					<div style="float: left; width: 40%;">
+						<p>
+						<ul>
+							<li>Control systems testing</li>
+							<li>Collision avoidance testing</li>
+						</ul>
+						</p>
+					</div>
+				</section>
+				<section>
+					<h5>Programming competition for Equinor</h5>
+					<div style="float:right">
+						<video loop autoplay data-src="media/land.webm" type="video/webm" />
+					</div>
+					<div style="float: left; width: 40%;">
+						<p>
+						<ul>
+							<li>Control systems testing</li>
+							<li>Collision avoidance testing</li>
+						</ul>
+						</p>
+					</div>
+				</section>
+				<section>
+					<h5>Drone inspection for Equinor</h5>
+					<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HYwekWndr3Y"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</section>
+				<section>
+					<h5>My master thesis for Autoagri</h5>
+					<div style="float: right; width: 60%;">
+						<img data-src="https://autoagri.no/wp-content/uploads/2021/04/AA-2_2-1-1024x576.jpeg"
+							alt="control_simulator_5.png" />
+					</div>
+					<div style="float: left; width: 40%;">
+						<p>
+						<ul>
+							<li>Modeling, control, and simulation of 4WIS vehicle</li>
+						</ul>
+						</p>
+					</div>
+				</section>
+				<section>
+					<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oru62Mvk3HM"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h5>Setting up a model in Gazebo</h5>
+				</section>
+			</section>
+			<section>
+				<h5>Recommended resources</h5>
+				<p>
+				<ul>
+					<li>Presentation: <a
+							href="http://gazebosim.org/assets/drc_kickoff_oct25_2012-b2c5dc430fdb575098f7ef2d09370f936e46cc73e8fcd0be72f6788759eabff7.pdf">Gazebo
+							workshop</a></a></li>
+					<li><a href="http://gazebosim.org/tutorials">Official tutorials are quite good</a></li>
+					<br>
+					<li>Tutorial: <a href="http://gazebosim.org/tutorials?tut=plugins_hello_world">Plugin hello world</a>
+					<li>Tutorial: <a href="http://gazebosim.org/tutorials?cat=guided_i&tut=guided_i1">Velodyne (model and
+							sensor)</a>
+					<li>Tutorial: <a href="http://gazebosim.org/tutorials?tut=plugins_model&cat=write_plugin">Model plugin</a>
+					</li>
+					<br>
+					<li>API: <a href="http://gazebosim.org/api.html">API docs are great</a></li>
+					<li>Model description: <a href="http://sdformat.org">SDF</a></li>
+				</ul>
+				</p>
+			</section>
+		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
 </html>
