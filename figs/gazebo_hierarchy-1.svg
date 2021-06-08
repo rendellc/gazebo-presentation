@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?> 
+<?xml-stylesheet href="gazebo_hierarchy.css" type="text/css"?> 
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98.81529pt" height="174.7173pt" viewBox="0.0 -167.51212 98.81529 174.7173 "> 
+<g transform="translate(0, 7.20518 ) scale(1,-1) translate(0,167.51212 )"> 
+<g stroke="#000" fill="#000">
+ <g stroke-width="0.4">
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <path d=" M 0.4 -6.80519 h 33.36044 v 13.61038 h -33.36044 Z  " fill="none"/>
+ </g>
+ </g>
+ <g transform="translate(3.73297,-3.47221)">
+ <g fill="#000">
+ <text style="stroke:none" transform="scale(1,-1) translate(13.34724,0)" text-anchor="middle"  font-size="10"> 
+<g fill="#000">
+ <g stroke="none"> World</g> </g>
+ </text> 
+</g>
+ </g>
+ </g>
+ </g>
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <path d=" M 31.70657 -26.66646 h 31.11041 v 13.49927 h -31.11041 Z  " fill="none"/>
+ </g>
+ </g>
+ <g transform="translate(35.03955,-23.33348)">
+ <g fill="#000">
+ <text style="stroke:none" transform="scale(1,-1) translate(12.22223,0)" text-anchor="middle"  font-size="10"> 
+<g fill="#000">
+ <g stroke="none"> Scene </g> </g>
+ </text> 
+</g>
+ </g>
+ </g>
+ </g>
+ <path d=" M 17.08022 -7.20518 L 17.08022 -19.91682 L 31.30658 -19.91682  " fill="none"/>
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <path d=" M 31.70657 -47.61108 h 39.13821 v 15.55484 h -39.13821 Z  " fill="none"/>
+ </g>
+ </g>
+ <g transform="translate(35.03955,-42.33366)">
+ <g fill="#000">
+ <text style="stroke:none" transform="scale(1,-1) translate(16.23613,0)" text-anchor="middle"  font-size="10"> 
+<g fill="#000">
+ <g stroke="none"> Physics</g> </g>
+ </text> 
+</g>
+ </g>
+ </g>
+ </g>
+ <path d=" M 17.08022 -7.20518 L 17.08022 -39.83366 L 31.30658 -39.83366  " fill="none"/>
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <path d=" M 31.70657 -66.5557 h 33.88824 v 13.61038 h -33.88824 Z  " fill="none"/>
+ </g>
+ </g>
+ <g transform="translate(35.03955,-63.22272)">
+ <g fill="#000">
+ <text style="stroke:none" transform="scale(1,-1) translate(13.61115,0)" text-anchor="middle"  font-size="10"> 
+<g fill="#000">
+ <g stroke="none"> Model </g> </g>
+ </text> 
+</g>
+ </g>
+ </g>
+ </g>
+ <path d=" M 17.08022 -7.20518 L 17.08022 -59.7505 L 31.30658 -59.7505  " fill="none"/>
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <path d=" M 63.27705 -86.47252 h 26.52713 v 13.61038 h -26.52713 Z  " fill="none"/>
+ </g>
+ </g>
+ <g transform="translate(66.61003,-83.13954)">
+ <g fill="#000">
+ <text style="stroke:none" transform="scale(1,-1) translate(9.93059,0)" text-anchor="middle"  font-size="10"> 
+<g fill="#000">
+ <g stroke="none"> Link </g> </g>
+ </text> 
+</g>
+ </g>
+ </g>
+ </g>
+ <path d=" M 48.6507 -66.95569 L 48.6507 -79.66733 L 62.87706 -79.66733  " fill="none"/>
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <path d=" M 63.27705 -106.3338 h 28.74933 v 13.49927 h -28.74933 Z  " fill="none"/>
+ </g>
+ </g>
+ <g transform="translate(66.61003,-103.00082)">
+ <g fill="#000">
+ <text style="stroke:none" transform="scale(1,-1) translate(11.04169,0)" text-anchor="middle"  font-size="10"> 
+<g fill="#000">
+ <g stroke="none"> Joint </g> </g>
+ </text> 
+</g>
+ </g>
+ </g>
+ </g>
+ <path d=" M 48.6507 -66.95569 L 48.6507 -99.58417 L 62.87706 -99.58417  " fill="none"/>
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <path d=" M 63.27705 -127.27843 h 35.13824 v 15.55484 h -35.13824 Z  " fill="none"/>
+ </g>
+ </g>
+ <g transform="translate(66.61003,-122.001)">
+ <g fill="#000">
+ <text style="stroke:none" transform="scale(1,-1) translate(14.23615,0)" text-anchor="middle"  font-size="10"> 
+<g fill="#000">
+ <g stroke="none"> Plugin </g> </g>
+ </text> 
+</g>
+ </g>
+ </g>
+ </g>
+ <path d=" M 48.6507 -66.95569 L 48.6507 -119.501 L 62.87706 -119.501  " fill="none"/>
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <path d=" M 31.70657 -147.19528 h 35.13824 v 15.55484 h -35.13824 Z  " fill="none"/>
+ </g>
+ </g>
+ <g transform="translate(35.03955,-141.91786)">
+ <g fill="#000">
+ <text style="stroke:none" transform="scale(1,-1) translate(14.23615,0)" text-anchor="middle"  font-size="10"> 
+<g fill="#000">
+ <g stroke="none"> Plugin </g> </g>
+ </text> 
+</g>
+ </g>
+ </g>
+ </g>
+ <path d=" M 17.08022 -7.20518 L 17.08022 -139.41786 L 31.30658 -139.41786  " fill="none"/>
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <g stroke="#000">
+ <g stroke-width="0.8">
+ <path d=" M 31.70657 -167.11212 h 29.86044 v 15.55484 h -29.86044 Z  " fill="none"/>
+ </g>
+ </g>
+ <g transform="translate(35.03955,-161.8347)">
+ <g fill="#000">
+ <text style="stroke:none" transform="scale(1,-1) translate(11.59724,0)" text-anchor="middle"  font-size="10"> 
+<g fill="#000">
+ <g stroke="none"> Light </g> </g>
+ </text> 
+</g>
+ </g>
+ </g>
+ </g>
+ <path d=" M 17.08022 -7.20518 L 17.08022 -159.3347 L 31.30658 -159.3347  " fill="none"/>
+ </g>
+ </g>
+ 
+                              </g> 
+</svg> 

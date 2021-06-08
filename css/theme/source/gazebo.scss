@@ -32,6 +32,7 @@ $backgroundColor: #fff;
 
 // Main text
 $mainFont: Roboto, 'sans-serif';
+$mainFontSize: 2em;
 $mainColor: #333;
 
 // Headings
@@ -63,7 +64,7 @@ $selectionColor: #fff;
 
 .reveal p {
     font-weight: 300;
-    text-shadow: 1px 1px $coal;
+    // text-shadow: 0px 0px $coal;
 }
 
 section.has-light-background {

@@ -20,7 +20,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 :root {
   --background-color: #fff;
   --main-font: Roboto, sans-serif;
-  --main-font-size: 40px;
+  --main-font-size: 2em;
   --main-color: #333;
   --block-margin: 20px;
   --heading-margin: 0 0 20px 0;
@@ -363,7 +363,6 @@ section.has-light-background, section.has-light-background h1, section.has-light
 }
 .reveal p {
   font-weight: 300;
-  text-shadow: 1px 1px #222;
 }
 
 section.has-light-background p, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4 {

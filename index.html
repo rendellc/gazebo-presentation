@@ -10,9 +10,10 @@
 	<link rel="stylesheet" href="dist/reset.css">
 	<link rel="stylesheet" href="dist/reveal.css">
 	<link rel="stylesheet" href="dist/theme/gazebo.css">
-	<!-- <link rel="stylesheet" href="dist/theme/moon.css"> -->
+	<!-- <link rel="stylesheet" href="dist/theme/moon.css">  -->
 	<!-- <link rel="stylesheet" href="dist/theme/black.css"> -->
 	<!-- <link rel="stylesheet" href="dist/theme/white.css"> -->
+	<!-- <link rel="stylesheet" href="dist/theme/beige.css"> -->
 
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -56,14 +57,16 @@
 				</section>
 				<section>
 					<h5>Programming competition for Equinor</h5>
-					<div style="float:right">
+					<div style="float:right; width: 40%;">
 						<video loop autoplay data-src="media/land.webm" type="video/webm" />
 					</div>
-					<div style="float: left; width: 40%;">
+					<div style="float: left; width: 60%;">
 						<p>
 						<ul>
-							<li>Control systems testing</li>
-							<li>Collision avoidance testing</li>
+							<li>Cloud based</li>
+							<li>Inspection of offshore windmill park</li>
+							<li>Path planning and computer vision tasks</li>
+							<li>Gzweb to see simulator live</li>
 						</ul>
 						</p>
 					</div>
@@ -76,7 +79,7 @@
 						allowfullscreen></iframe>
 				</section>
 				<section>
-					<h5>My master thesis for Autoagri</h5>
+					<h5>Master thesis for Autoagri</h5>
 					<div style="float: right; width: 60%;">
 						<img data-src="https://autoagri.no/wp-content/uploads/2021/04/AA-2_2-1-1024x576.jpeg"
 							alt="control_simulator_5.png" />
@@ -84,10 +87,13 @@
 					<div style="float: left; width: 40%;">
 						<p>
 						<ul>
-							<li>Modeling, control, and simulation of 4WIS vehicle</li>
+							<li>Modeling, simulation, and control of 4WIS agricultural vehicle</li>
 						</ul>
 						</p>
 					</div>
+				</section>
+				<section>
+					<img data-src="media/detailed_system_architecture.svg" alt="missing" />
 				</section>
 				<section>
 					<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oru62Mvk3HM"
@@ -98,8 +104,108 @@
 			</section>
 			<section>
 				<section>
-					<h5>Setting up a model in Gazebo</h5>
+					<h5>Gazebo simulation concepts</h5>
+					<div style="float: right; width: 60%;">
+						<img style="max-height:40vh" data-src="media/gazebo_hierarchy.png" alt="missing" />
+					</div>
+					<div style="float: left; width: 40%;">
+						<p>
+						<ul>
+							<li>Tree structure</li>
+							<li>Can have many models, plugins, lights</li>
+						</ul>
+						</p>
+					</div>
 				</section>
+				<section>
+					<h5>World specified in xml</h5>
+					<p>Simulation description Format (SDF)</p>
+					<pre><code data-trim data-noescape><script type="text/template">
+<world name="myworldname">
+  <!-- Include external model -->
+  <include>
+    <uri>model://ground_plane</uri>
+  </include>
+
+  <!-- Create "mymodel" -->
+  <model name="mymodel">
+    <link name="mylink">
+	  ...
+    </link>
+  </model>
+</world>
+					</script></code></pre>
+					<p><a href="http://sdformat.org/">SDF Specification</a></p>
+				</section>
+				<section>
+					<h5>Model specification</h5>
+					<div style="float: left; width: 50%;">
+						<img style="max-height:40vh"
+							data-src="https://www.researchgate.net/profile/Amar-Dum/publication/301895257/figure/fig4/AS:358645855473667@1462519243819/Joints-and-Links-of-Robot_W640.jpg"
+							alt="missing" />
+					</div>
+					<div style="float: right; width: 50%;">
+						<img style="max-height:40vh" data-src="media/model_hierarchy.png" alt="missing" />
+					</div>
+				</section>
+				<section>
+					<img style="max-height:40vh" data-src="media/joints.png" alt="missing" />
+				</section>
+			</section>
+			<section>
+				<h5>Interactive models</h5>
+				<p>
+				<ul>
+					<li>Use model plugins to interact with models at runtime</li>
+					<li><a
+							href="http://osrf-distributions.s3.amazonaws.com/gazebo/api/11.0.0/classgazebo_1_1physics_1_1Model.html">Model
+							API is well-documented</a></li>
+				</ul>
+				</p>
+				<pre><code data-trim data-noescape>
+namespace gazebo
+{
+  class ModelPush : public ModelPlugin
+  {
+    // Called once when model is loaded
+    public: void Load(physics::ModelPtr _parent, sdf::ElementPtr /*_sdf*/) { 
+		}
+
+    // Called each simulation step
+    public: void OnUpdate()
+    {
+      this->model->SetLinearVel(ignition::math::Vector3d(.3, 0, 0));
+    }
+    ...
+  };
+
+  // Register this plugin with the simulator
+  GZ_REGISTER_MODEL_PLUGIN(ModelPush)
+}
+					</code></pre>
+			</section>
+			<section>
+				<h5>Tips</h5>
+				<p>
+				<ul>
+					<li>Keep collision geometry simple
+						<ul>
+							<li>Collision detection is computationally expensive</li>
+							<li>Prefer primitives like boxes or cylinders over meshes</li>
+						</ul>
+					</li>
+					<br>
+					<li>If the models files become too large, then <a href="http://gazebosim.org/tutorials/?tut=ros_urdf">URDF</a>
+						is a good alternative file format
+						<ul>
+							<li>I recommend URDF with <a
+									href="http://wiki.ros.org/urdf/Tutorials/Using%20Xacro%20to%20Clean%20Up%20a%20URDF%20File">xacro</a>
+								to have parameters (like mass and radius) in the model descriptions
+							</li>
+						</ul>
+					</li>
+				</ul>
+				</p>
 			</section>
 			<section>
 				<h5>Recommended resources</h5>
@@ -116,8 +222,8 @@
 					<li>Tutorial: <a href="http://gazebosim.org/tutorials?tut=plugins_model&cat=write_plugin">Model plugin</a>
 					</li>
 					<br>
-					<li>API: <a href="http://gazebosim.org/api.html">API docs are great</a></li>
-					<li>Model description: <a href="http://sdformat.org">SDF</a></li>
+					<li>API: <a href="http://gazebosim.org/api.html">documention is great!</a></li>
+					<li>Model description: <a href="http://sdformat.org">sdf</a></li>
 				</ul>
 				</p>
 			</section>
